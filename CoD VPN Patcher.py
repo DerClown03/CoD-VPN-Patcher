@@ -17,7 +17,7 @@ f = open(vpn_file, "r")
 splitted_file = f.read().split("<ca>")
 
 if ("route-nopull\nroute 185.34.0.0 255.255.0.0" in splitted_file[0]):
-    error("(.opvn) File is already patched")
+    error("(.ovpn) File is already patched")
 
 splitted_file[0] += "route-nopull\nroute 185.34.0.0 255.255.0.0\n<ca>" # Adding modification to VPN file
 patched_vpn_file = ""
