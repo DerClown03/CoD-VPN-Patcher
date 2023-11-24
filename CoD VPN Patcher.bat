@@ -1,0 +1,1 @@
+start pythonw "%~dp0CoD VPN Patcher.py" %1
