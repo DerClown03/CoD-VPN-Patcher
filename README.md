@@ -1,5 +1,9 @@
 # CoD-VPN-Patcher
-Patches OpenVPN Profiles (.ovpn) to CoD-Anti-SBMM VPN profiles.
+Patches OpenVPN Profiles (.ovpn) to CoD VPN profiles.
+
+# Warining
+This is something I've put together in a few minutes! It probably works with most/all OpenVPN profiles but that is not guaranteed. Use it at your own risk!
+
 ## Installation
 1. Download this repository as .zip
 2. Extract the folder and drag it somewhere it belongs (e.g. your programs folder)
